@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry</title>
+
+    <style>
+        nav{
+            text-align: right;
+            margin-top: 25px;
+            margin-bottom: 0px;
+            padding-top: 15px;
+            padding-bottom: 0px;
+
+            }
+        a{
+            color: white;
+            background-color: rgb(3, 59, 22);
+            font-size: 20px;
+            padding: 10px;
+            margin: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: rgb(15, 146, 140);
+        }
+        header{
+            margin: 0px;
+
+        }
+
+        section{
+            background-image: url("./content/enquiry.jpg");
+            height: 1000px;
+            width:100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 15px ;
+            background-size: cover;
+        }
+
+        form{
+            padding-left: 100px;
+        }
+        h1{
+            font-size: 40px;
+            padding-top: 40px;
+            padding-left: 45px;
+        }
+        input,p,select{
+            font-size: 20px;
+            border-radius: 7px;
+            padding: 10px;
+            border: 2px;
+            border-color: rgb(54, 100, 54);
+            
+
+        }
+        input,select{box-shadow: 2px 2px 2px;}
+
+        button{
+            padding: 10px;
+            border: 10px grey;
+            font-size: 20px;
+            border-radius: 5px;
+            color:white;
+            background-color: rgb(25, 92, 25);
+
+        }
+        button:hover{
+            background-color: rgb(98, 151, 98);
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./home.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./rooms.html">Rooms</a>
+            <a href="./facilities.html">Facilities</a>
+            <a href="./enquiry.html">Enquiry</a>
+        </nav>
+
+        <section>
+            <h1>Fill in the form to know more...</h1>
+            <form >
+                <p><input type="text" placeholder="Name"></p>
+                <p><input type="tel" placeholder="Phone No"></p>
+                <p><input type="email" placeholder="Email Id"></p>
+                <p><input type="date" placeholder="Check In Date"></p>
+                <p><input type="number" placeholder="Number of days"></p>
+                <p>Food preference:
+                <input type="radio" name="gen">Veg
+                <input type="radio" name="gen">Non-veg
+                <input type="radio" name="gen">Vegan
+                </p>
+                <p>
+                    Pick up point:
+                    <select name="" id="pick up">
+                        <option value="">Mysore airport</option>
+                        <option value="">Mysore Bus stand</option>
+                        <option value="">Metropole Circle</option>
+                    </select>
+                </p>
+                <h6><button type="submit">Submit</button></h6>
+
+            </form>
+        </section>
+    </header> 
+</body>
+</html>

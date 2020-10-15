@@ -1,0 +1,11 @@
+Home,
+About,
+Rooms page,
+ Facilities,
+ Enquiry page(form=> name, no of days, no, email,date of checkin, foodstyle, lifestyle(spa,pool,drinks), pick up point ])
+Use interna
+l styling
+
+
+clear:right
+dipslay:flexbox
